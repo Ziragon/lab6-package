@@ -1,6 +1,6 @@
 {
   "name": "@ziragon/lab6-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
