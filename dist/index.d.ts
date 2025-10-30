@@ -1,4 +1,15 @@
 import React from 'react';
+
+interface ButtonProps {
+    variant: 'primary' | 'secondary' | 'danger';
+    size: 'sm' | 'md' | 'lg';
+    disabled?: boolean;
+    onClick: () => void;
+    children: React.ReactNode;
+    type?: 'button' | 'submit' | 'reset';
+}
+declare const Button: React.FC<ButtonProps>;
+
 interface InputProps {
     label?: string;
     error?: string;
@@ -10,4 +21,5 @@ interface InputProps {
     type?: 'text' | 'password' | 'email';
 }
 declare const Input: React.FC<InputProps>;
-export default Input;
+
+export { Button, Input };

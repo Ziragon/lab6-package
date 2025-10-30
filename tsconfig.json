@@ -17,7 +17,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "declaration": true,
+    "declaration": false,
     "declarationDir": "./dist",
     "emitDeclarationOnly": false,
     "plugins": [

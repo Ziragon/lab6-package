@@ -1,2 +1,2 @@
-export { default as Button } from '@/src/components/Button/Button';
-export { default as Input } from '@/src/components/Input/Input';
+export { default as Button } from './components/Button/Button';
+export { default as Input } from './components/Input/Input';
