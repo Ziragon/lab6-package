@@ -16,8 +16,11 @@ export default {
         peerDepsExternal(peerDepsOptions),
         resolve(),
         commonjs(),
-        typescript({ tsconfig: './tsconfig.json' }),
+        typescript({
+            tsconfig: './tsconfig.json',
+        }),
         postcss({ modules: true }),
+
     ],
     external: ['react', 'react-dom'],
 };

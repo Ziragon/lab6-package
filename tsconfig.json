@@ -17,6 +17,9 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": false,
     "plugins": [
       {
         "name": "next"

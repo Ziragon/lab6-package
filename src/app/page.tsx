@@ -1,4 +1,5 @@
 import Image from "next/image";
+//import { Button } from "@ziragon/lab6-package";
 
 export default function Home() {
   return (
